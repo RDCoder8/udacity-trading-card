@@ -1,0 +1,62 @@
+/* add your CSS here */
+
+.container {
+  width: 320px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: rgb(255, 0, 0) 0px 0px 15px;
+  padding: 20px;
+  margin: 20px auto;
+  background: linear-gradient(45deg, #0212f1 0%, #f1ed00 100%);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+.animal-data, .animal-image, .animal-name {
+    border: 1px solid black;
+  }
+
+.animal-name {
+  width: 305px;  
+  padding: 2px;  
+  font-weight: bold;
+  text-align: center;}
+
+.animal-image {
+  padding: 5px;  
+  width: 300px;
+  height: 300px;
+}
+
+.animal-data {
+    padding: 15px;
+    width: 280px;
+}
+.animal-fact {
+    font-style: italic;
+}
+
+.label {
+    font-weight: bold;
+}
+.animal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.animal-description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
